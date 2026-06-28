@@ -3,7 +3,7 @@ resources:
     service_desk_pipeline:
       name: service_desk_pipeline
       schedule: 
-        quartz_cron_expression: "0 0 0 12 * *"
+        quartz_cron_expression: "0 0 12 * * ?"
         timezone_id: "Europe/Warsaw"
         pause_status: "UNPAUSED"
 
@@ -17,6 +17,8 @@ resources:
               - ${var.storage_account}
               - "--container"
               - ${var.container}
+              - "--access_key"
+              - ${var.access_key}
 
         - task_key: build_silver 
           depends_on:

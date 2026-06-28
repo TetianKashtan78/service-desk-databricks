@@ -5,6 +5,9 @@ include:
  - ./resources/*yml
 
 variables:
+ databricks_host:
+   description: Databricks workspace host
+   default: https://adb-062323180243.6.azuredatabricks.net
  cluster_id:
   description: Existing Databricks cluster id
   default: 0623-180243-l059n6b6
@@ -17,10 +20,13 @@ variables:
    description: Azure Storage container name
    default: csvdata
 
+ access_key:
+   description: Azure Storage access key
+
  targets:
   default: 
    workspace:
-    host: https://adb-7405609294435949.9.azuredatabricks.net
+    host: ${var.databricks_host}
 
     variables:
      cluster_id: 0623-180243-l059n6b6
