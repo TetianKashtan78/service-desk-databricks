@@ -11,7 +11,7 @@ resources:
         - task_key: load_bronze
           existing_cluster_id: ${var.cluster_id}
           spark_python_task:
-            python_file: ..\src\bronze\load_bronze.py
+            python_file: ../src/bronze/load_bronze.py
             parameters:
               - "--storage_account"
               - ${var.storage_account}
@@ -25,12 +25,12 @@ resources:
             - task_key: load_bronze
           existing_cluster_id: ${var.cluster_id}
           spark_python_task:
-            python_file: ..\src\silver\build_silver.py
+            python_file: ../src/silver/build_silver.py
             
         - task_key: build_gold
           depends_on:
             - task_key: build_silver
           existing_cluster_id: ${var.cluster_id}
           spark_python_task:
-            python_file: ..\src\gold\build_gold.py
+            python_file: ../src/gold/build_gold.py
 
