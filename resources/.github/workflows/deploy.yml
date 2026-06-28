@@ -13,7 +13,7 @@ job:
     env:
       DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
       DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-      BUNDLE_VAR_ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+      BUNDLE_VAR_access_key: ${{ secrets.ACCESS_KEY }}
 
 
     steps:
@@ -28,4 +28,4 @@ job:
        
 
       - name: Deploy bundle
-        run: databricks bundle validate -t default
+        run: databricks bundle deploy -t default
