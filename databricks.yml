@@ -1,0 +1,29 @@
+bundle:
+  name: service_desk_bundle
+
+include:
+ - ./resources/*yml
+
+variables:
+ cluster_id:
+  description: Existing Databricks cluster id
+  default: 0623-180243-l059n6b6
+
+ storage_account:
+   description: Azure storage account name
+   default: ticketsproject
+
+ container:
+   description: Azure Storage container name
+   default: csvdata
+
+ targets:
+  default: 
+   workspace:
+    host: https://adb-7405609294435949.9.azuredatabricks.net
+
+    variables:
+     cluster_id: 0623-180243-l059n6b6
+     storage_account: ticketsproject
+     container: csvdata
+     

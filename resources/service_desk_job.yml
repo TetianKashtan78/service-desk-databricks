@@ -1,0 +1,34 @@
+resources:
+  jobs:
+    service_desk_pipeline:
+      name: service_desk_pipeline
+      schedule: 
+        quartz_cron_expression: "0 0 0 12 * *"
+        timezone_id: "Europe/Warsaw"
+        pause_status: "UNPAUSED"
+
+      tasks:
+        - task_key: load_bronze
+          existing_cluster_id: ${var.cluster_id}
+          spark_python_task:
+            python_file: ..\src\bronze\load_bronze.py
+            parameters:
+              - "--storage_account"
+              - ${var.storage_account}
+              - "--container"
+              - ${var.container}
+
+        - task_key: build_silver 
+          depends_on:
+            - task_key: load_bronze
+          existing_cluster_id: ${var.cluster_id}
+          spark_python_task:
+            python_file: ..\src\silver\build_silver.py
+            
+        - task_key: build_gold
+          depends_on:
+            - task_key: build_silver
+          existing_cluster_id: ${var.cluster_id}
+          spark_python_task:
+            python_file: ..\src\gold\build_gold.py
+
