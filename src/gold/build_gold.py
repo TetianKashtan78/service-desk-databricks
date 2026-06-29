@@ -137,3 +137,4 @@ service_statistic.write \
     .saveAsTable(f"{catalog}.gold.service_statistic")
 
 print("Gold table created successfully.")
+
