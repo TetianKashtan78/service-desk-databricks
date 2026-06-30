@@ -1,0 +1,61 @@
+customer_id,customer_name,department,region,customer_type,email
+CUST-0001,User 001,Legal,EMEA,Internal,user001@example-corp.com
+CUST-0002,User 002,Legal,Americas,Internal,user002@example-corp.com
+CUST-0003,User 003,Sales,EMEA,External Partner,user003@example-corp.com
+CUST-0004,User 004,Finance,APAC,External Partner,user004@example-corp.com
+CUST-0005,User 005,IT,EMEA,External Partner,user005@example-corp.com
+CUST-0006,User 006,HR,EMEA,Internal,user006@example-corp.com
+CUST-0007,User 007,Finance,EMEA,Internal,user007@example-corp.com
+CUST-0008,User 008,IT,APAC,Internal,user008@example-corp.com
+CUST-0009,User 009,IT,EMEA,External Partner,user009@example-corp.com
+CUST-0010,User 010,Legal,APAC,External Partner,user010@example-corp.com
+CUST-0011,User 011,HR,EMEA,VIP,user011@example-corp.com
+CUST-0012,User 012,IT,Americas,Internal,user012@example-corp.com
+CUST-0013,User 013,Marketing,EMEA,External Partner,user013@example-corp.com
+CUST-0014,User 014,HR,Americas,VIP,user014@example-corp.com
+CUST-0015,User 015,Sales,EMEA,VIP,user015@example-corp.com
+CUST-0016,User 016,Finance,EMEA,VIP,user016@example-corp.com
+CUST-0017,User 017,Finance,Americas,VIP,user017@example-corp.com
+CUST-0018,User 018,IT,Americas,Internal,user018@example-corp.com
+CUST-0019,User 019,Legal,Americas,External Partner,user019@example-corp.com
+CUST-0020,User 020,Finance,Americas,Internal,user020@example-corp.com
+CUST-0021,User 021,IT,Americas,External Partner,user021@example-corp.com
+CUST-0022,User 022,IT,Americas,External Partner,user022@example-corp.com
+CUST-0023,User 023,Sales,APAC,Internal,user023@example-corp.com
+CUST-0024,User 024,Finance,APAC,Internal,user024@example-corp.com
+CUST-0025,User 025,Marketing,Americas,Internal,user025@example-corp.com
+CUST-0026,User 026,Marketing,EMEA,Internal,user026@example-corp.com
+CUST-0027,User 027,HR,Americas,VIP,user027@example-corp.com
+CUST-0028,User 028,Legal,Americas,Internal,user028@example-corp.com
+CUST-0029,User 029,Operations,Americas,Internal,user029@example-corp.com
+CUST-0030,User 030,Legal,Americas,External Partner,user030@example-corp.com
+CUST-0031,User 031,Legal,APAC,Internal,user031@example-corp.com
+CUST-0032,User 032,IT,APAC,Internal,user032@example-corp.com
+CUST-0033,User 033,IT,APAC,Internal,user033@example-corp.com
+CUST-0034,User 034,Sales,Americas,VIP,user034@example-corp.com
+CUST-0035,User 035,Operations,APAC,External Partner,user035@example-corp.com
+CUST-0036,User 036,IT,EMEA,External Partner,user036@example-corp.com
+CUST-0037,User 037,Operations,EMEA,Internal,user037@example-corp.com
+CUST-0038,User 038,Marketing,EMEA,VIP,user038@example-corp.com
+CUST-0039,User 039,HR,Americas,Internal,user039@example-corp.com
+CUST-0040,User 040,Sales,APAC,External Partner,user040@example-corp.com
+CUST-0041,User 041,Operations,EMEA,External Partner,user041@example-corp.com
+CUST-0042,User 042,HR,Americas,External Partner,user042@example-corp.com
+CUST-0043,User 043,HR,EMEA,VIP,user043@example-corp.com
+CUST-0044,User 044,Sales,EMEA,External Partner,user044@example-corp.com
+CUST-0045,User 045,IT,APAC,VIP,user045@example-corp.com
+CUST-0046,User 046,Legal,APAC,VIP,user046@example-corp.com
+CUST-0047,User 047,IT,Americas,VIP,user047@example-corp.com
+CUST-0048,User 048,Sales,EMEA,External Partner,user048@example-corp.com
+CUST-0049,User 049,HR,EMEA,Internal,user049@example-corp.com
+CUST-0050,User 050,Marketing,EMEA,Internal,user050@example-corp.com
+CUST-0051,User 051,Legal,EMEA,External Partner,user051@example-corp.com
+CUST-0052,User 052,HR,APAC,Internal,user052@example-corp.com
+CUST-0053,User 053,HR,Americas,External Partner,user053@example-corp.com
+CUST-0054,User 054,HR,APAC,VIP,user054@example-corp.com
+CUST-0055,User 055,IT,EMEA,External Partner,user055@example-corp.com
+CUST-0056,User 056,Legal,EMEA,External Partner,user056@example-corp.com
+CUST-0057,User 057,IT,Americas,External Partner,user057@example-corp.com
+CUST-0058,User 058,Operations,EMEA,VIP,user058@example-corp.com
+CUST-0059,User 059,HR,EMEA,VIP,user059@example-corp.com
+CUST-0060,User 060,Finance,APAC,External Partner,user060@example-corp.com
