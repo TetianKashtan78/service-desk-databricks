@@ -9,6 +9,7 @@ This project implements a three-layer medallion architecture (bronze, silver, go
 ## Tech Stack
 
 - PySpark and SQL for data processing
+- dbt for organizing SQL code
 - Databricks Runtime and Delta Lake
 - Databricks Workflows for orchestration
 - Databricks CLI for local validation and deployment
@@ -153,11 +154,4 @@ The GitHub Actions workflow in `.github/workflows/deploy.yml` automatically:
 - Deploys changes to Databricks
 - Runs integration tests
 - Triggers the job pipeline
-
-
-
-
-
-
-
 
